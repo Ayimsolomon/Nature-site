@@ -301,7 +301,16 @@ img {
     text-align: center;
     margin-bottom: 20px;
 }
-
+.blog {
+    text-align: center;
+    margin-bottom: 10px;
+    }
+blog, .top-posts-box {
+    background-color: var(--light-gray);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
 .subscribe-text .icon-large {
     font-size: 3rem;
     color: var(--primary-color);
