@@ -524,10 +524,10 @@ blog, .top-posts-box {
 /* Media query for screens 1200px and larger (large desktops) */
 @media (min-width: 1200px) {
     .container {
-        max-width: 1140px; /* Adjust to a larger max-width for wider screens */
+        max-width: 100px; /* Adjust to a larger max-width for wider screens */
     }
     .header-top, .navbar .nav-container {
-        max-width: 1140px; /* Align with container */
+        max-width: 100px; /* Align with container */
     }
     .main-content {
         grid-template-columns: 2.5fr 1fr; /* Adjust column ratios for larger screens */
@@ -541,7 +541,7 @@ blog, .top-posts-box {
         font-size: 1.1rem;
     }
     .hero-section {
-        height: 500px; /* Taller hero section */
+        height: 100px; /* Taller hero section */
     }
     .hero-section h1 {
         font-size: 4.5rem;
@@ -557,7 +557,7 @@ blog, .top-posts-box {
         height: 200px;
     }
     .featured-post-section {
-        height: 400px; /* Taller featured section */
+        height: 100px; /* Taller featured section */
         padding: 40px;
     }
     .featured-post-section h2 {
