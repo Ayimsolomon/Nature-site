@@ -529,10 +529,10 @@ blog, .top-posts-box {
     .header-top, .navbar .nav-container {
         max-width: 1140px; /* Align with container */
     }
-/*     .main-content { */
-/*         //grid-template-columns: 2.5fr 1fr; /* Adjust column ratios for larger screens */ 
-/*         gap: 30px; */
-/*     } */
+    .main-content {
+        grid-template-columns: 1fr 1fr; /* Adjust column ratios for larger screens 
+        gap: 30px;
+    }
     .logo {
         font-size: 3rem;
     }
