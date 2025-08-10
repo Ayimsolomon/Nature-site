@@ -479,6 +479,94 @@ blog, .top-posts-box {
     }
 }
 
+/* Media query for screens up to 575.98px (small mobile devices) */
+@media (max-width: 576px) { /* Using 576px as a common breakpoint for very small screens */
+    .header-top {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .logo {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+    .search-bar {
+        width: 90%;
+        margin-top: 10px;
+    }
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    .hero-section p {
+        font-size: 0.9rem;
+    }
+    .blog-post .post-content {
+        padding: 10px;
+    }
+    .post-image-container {
+        height: 200px;
+    }
+    .featured-post-section {
+        height: 250px;
+        padding: 15px;
+    }
+    .featured-post-section h2 {
+        font-size: 1.5rem;
+    }
+    .featured-post-section p {
+        font-size: 0.8rem;
+    }
+    .sidebar-content {
+        padding: 15px;
+    }
+}
+
+/* Media query for screens 1200px and larger (large desktops) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px; /* Adjust to a larger max-width for wider screens */
+    }
+    .header-top, .navbar .nav-container {
+        max-width: 1140px; /* Align with container */
+    }
+    .main-content {
+        grid-template-columns: 2.5fr 1fr; /* Adjust column ratios for larger screens */
+        gap: 30px;
+    }
+    .logo {
+        font-size: 3rem;
+    }
+    .nav-links a {
+        padding: 20px 25px; /* More padding for larger navigation links */
+        font-size: 1.1rem;
+    }
+    .hero-section {
+        height: 500px; /* Taller hero section */
+    }
+    .hero-section h1 {
+        font-size: 4.5rem;
+    }
+    .hero-section p {
+        font-size: 1.2rem;
+    }
+    .blog-post {
+        flex-direction: row; /* Ensure row layout for blog posts */
+    }
+    .post-image-container {
+        width: 300px; /* Wider image container */
+        height: 200px;
+    }
+    .featured-post-section {
+        height: 400px; /* Taller featured section */
+        padding: 40px;
+    }
+    .featured-post-section h2 {
+        font-size: 2.8rem;
+    }
+    .featured-post-section p {
+        font-size: 1.1rem;
+    }
+}
 @keyframes slideDown {
     from {
         transform: translateY(-100%);
